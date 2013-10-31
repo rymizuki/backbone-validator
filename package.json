@@ -2,7 +2,7 @@
   "name": "backbone.validator",
   "version": "0.0.1",
   "private": true,
-  "peerDependencies": {
+  "dependencies": {
     "grunt-cli": "~0.1.9"
   },
   "devDependencies": {
