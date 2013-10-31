@@ -22,7 +22,7 @@
 
             var errors = this.create_result();
 
-            _.chain(this.rules).each(function (column) {
+            _(this.columns).each(function (column) {
                 _(that.rules[column]).each(function (method) {
                     var args;
                     if (_.isArray(method)) {
